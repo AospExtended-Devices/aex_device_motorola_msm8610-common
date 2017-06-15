@@ -86,7 +86,6 @@ PRODUCT_PACKAGES += \
 
 # Audio Configuration
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf
 
 # Boot animation
@@ -104,7 +103,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8610 \
     libshim_qcopt \
-    Snap
+    SnapdragonCamera
 
 # IPC router config
 PRODUCT_COPY_FILES += \
